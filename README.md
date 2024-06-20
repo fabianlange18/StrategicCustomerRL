@@ -9,4 +9,4 @@ A repository for the paper "Dynamic Pricing in Competitive Markets with Strategi
 
 4. Find a detailed analysis in the created folder ``results/<run_name>``.
 
-5. (optional) Create additional evaluations with the notebooks ``visual_evaluation``, ``numerical_evaluation.ipynb`` and ``sensitivity_evaluation.ipynb``.
+5. (optional) Create additional evaluations with the notebooks ``visual_evaluation.ipynb``, ``numerical_evaluation.ipynb`` and ``sensitivity_evaluation.ipynb``.
