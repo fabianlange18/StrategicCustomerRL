@@ -1,0 +1,65 @@
+Summary for Run 01_duopoly
+
+100 % seasonal
+Playing against undercutting competitor
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal    883.00       25.23      3.60        19.00        25.00        33.00
+                           i1_n_seasonal    867.00       24.77      3.60        17.00        25.00        31.00
+                       i0_n_seasonal_buy    375.00       10.71      5.06         1.00        10.00        21.00
+            i0_n_seasonal_competitor_buy    389.00       11.11      7.61         0.00        13.00        21.00
+           i0_seasonal_competitor_reward   1278.44       36.53     26.13         0.00        37.86        81.07
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward   1678.03       47.94     17.16         6.57        47.40        82.16
+                       i1_n_seasonal_buy    303.00        8.66      3.08         2.00         9.00        16.00
+            i1_n_seasonal_competitor_buy    502.00       14.34      3.64         8.00        14.00        23.00
+           i1_seasonal_competitor_reward   1892.27       54.06     17.71        26.85        56.03        94.72
+             i1_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i1_seasonal_reward   1543.36       44.10     21.45         8.14        44.08        92.00
+                    i0_agent_offer_price    171.80        4.91      1.21         2.66         5.35         6.57
+                    i1_agent_offer_price    171.80        4.91      1.21         2.66         5.35         6.57
+                         i0_total_reward   1678.03       47.94     17.16         6.57        47.40        82.16
+                         i1_total_reward   1543.36       44.10     21.45         8.14        44.08        92.00
+               i0_competitor_offer_price    136.77        3.91      1.21         1.66         4.35         5.57
+               i1_competitor_offer_price    136.80        3.91      1.21         1.66         4.35         5.57
+              i0_total_competitor_reward   1278.44       36.53     26.13         0.00        37.86        81.07
+              i1_total_competitor_reward   1892.27       54.06     17.71        26.85        56.03        94.72
+                       agent_offer_price    343.61        4.91      1.21         2.66         5.35         6.57
+                  competitor_offer_price    273.58        3.91      1.21         1.66         4.35         5.57
+                            total_reward   3221.38       46.02     19.52         6.57        46.56        92.00
+                 total_competitor_reward   3170.71       45.30     23.98         0.00        47.92        94.72
+                         seasonal_reward   3221.38       46.02     19.52         6.57        46.56        92.00
+              seasonal_competitor_reward   3170.71       45.30     23.98         0.00        47.92        94.72
+                          n_seasonal_buy    678.00        9.69      4.31         1.00         9.00        21.00
+               n_seasonal_competitor_buy    891.00       12.73      6.18         0.00        14.00        23.00
+                              n_seasonal   1750.00       25.00      3.61        17.00        25.00        33.00
+                seasonal_reference_price    380.00        5.43      1.40         3.00         6.00         7.00
+
+Average Agent Sales Price seasonal: 4.751
+Average Offer Price Agent: 4.909
+Average Offer Price Competitor: 3.908
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [3.77, 5.39, 6.04, 2.79, 5.84, 4.42, 6.29]
+Profits per seasonal Customer: [2.94, 4.59, 5.27, 2.03, 4.74, 3.72, 5.41]
+Profits all seasonal Customers: [146.95, 229.27, 263.48, 101.69, 236.9, 186.01, 270.66]
+Reward per Week: 1434.96
+Reward per Episode: 14349.56
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [147.14, 237.44, 282.35, 101.73, 237.44, 192.38, 282.35]
+Reward per Week: 1480.83
+Reward per Episode: 14808.3
+
+PERFORMANCE
+Reaching 93.24 % of optimal prices
+Reaching 97.43 % of optimal profits

@@ -1,0 +1,48 @@
+Summary for Run 01_monopoly
+
+100 % seasonal
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal   1750.00       50.00      0.00        50.00        50.00        50.00
+                           i1_n_seasonal   1750.00       50.00      0.00        50.00        50.00        50.00
+                       i0_n_seasonal_buy   1360.00       38.86      3.52        31.00        39.00        45.00
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward   7326.61      209.33     66.95        89.15       234.14       313.45
+                    i0_agent_offer_price    186.24        5.32      1.48         2.79         5.90         7.01
+                    i1_agent_offer_price    186.24        5.32      1.48         2.79         5.90         7.01
+                         i0_total_reward   7326.61      209.33     66.95        89.15       234.14       313.45
+                         i1_total_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                       agent_offer_price    186.24        5.32      1.48         2.79         5.90         7.01
+                            total_reward   7326.61      209.33     66.95        89.15       234.14       313.45
+                         seasonal_reward   7326.61      209.33     66.95        89.15       234.14       313.45
+                          n_seasonal_buy   1360.00       38.86      3.52        31.00        39.00        45.00
+                              n_seasonal   1750.00       50.00      0.00        50.00        50.00        50.00
+                seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+
+Average Agent Sales Price seasonal: 5.387
+Average Offer Price Agent: 5.321000099182129
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [3.8518229, 5.904912, 6.965447, 2.785787, 6.0035534, 4.727457, 7.0097747]
+Profits per seasonal Customer: [2.9428134602247202, 4.7458436933031205, 5.645123102086023, 2.033924547778922, 4.748219341240775, 3.82584914897233, 5.646956660784069]
+Profits all seasonal Customers: [147.14067301, 237.29218467, 282.2561551 , 101.69622739, 237.41096706, 191.29245745, 282.34783304]
+Reward per Week: 1480.21
+Reward per Episode: 7401.06
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [147.14, 237.44, 282.35, 101.73, 237.44, 192.38, 282.35]
+Reward per Week: 1480.83
+Reward per Episode: 14808.3
+
+PERFORMANCE
+Reaching 99.37 % of optimal prices
+Reaching 99.91 % of optimal profits

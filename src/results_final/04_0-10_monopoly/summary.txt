@@ -1,0 +1,62 @@
+Summary for Run 04_0-10_monopoly
+
+0 % seasonal
+100 % anticipating
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal      0.00        0.00      0.00         0.00         0.00         0.00
+                           i1_n_seasonal      0.00        0.00      0.00         0.00         0.00         0.00
+                       i0_n_anticipating   2632.00       75.20     40.23        50.00        50.00       234.00
+                       i1_n_anticipating   2632.00       75.20     40.23        50.00        50.00       234.00
+                       i0_n_seasonal_buy      0.00        0.00      0.00         0.00         0.00         0.00
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward      0.00        0.00      0.00         0.00         0.00         0.00
+               i0_n_anticipating_waiting    733.00       20.94     31.23         0.00         0.00        92.00
+                   i0_n_anticipating_buy   1856.00       53.03     53.66         0.00        50.00       234.00
+         i0_anticipating_reference_price    137.95        3.94     13.40       -47.53         6.60        18.68
+                  i0_anticipating_reward  10851.18      310.03    337.66         0.00       230.49      1561.68
+                    i0_agent_offer_price    196.27        5.61      1.17         3.47         5.50         7.47
+                    i1_agent_offer_price    196.27        5.61      1.17         3.47         5.50         7.47
+                         i0_total_reward  10851.18      310.03    337.66         0.00       230.49      1561.68
+                         i1_total_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                       agent_offer_price    196.27        5.61      1.17         3.47         5.50         7.47
+                            total_reward  10851.18      310.03    337.66         0.00       230.49      1561.68
+                         seasonal_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                          n_seasonal_buy      0.00        0.00      0.00         0.00         0.00         0.00
+                              n_seasonal      0.00        0.00      0.00         0.00         0.00         0.00
+                seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     anticipating_reward  10851.18      310.03    337.66         0.00       230.49      1561.68
+                      n_anticipating_buy   1856.00       53.03     53.66         0.00        50.00       234.00
+                          n_anticipating   2632.00       75.20     40.23        50.00        50.00       234.00
+            anticipating_reference_price    137.95        3.94     13.40       -47.53         6.60        18.68
+                  n_anticipating_waiting    733.00       20.94     31.23         0.00         0.00        92.00
+
+Average Agent Sales Price seasonal: nan
+
+Average Agent Sales Price anticipating: 5.847
+Average Offer Price Agent: 5.607999801635742
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [4.53, 4.54, 4.5, 4.51, 4.54, 4.5, 4.5]
+Profits per seasonal Customer: [2.46, 4.04, 4.1, 0.05, 4.04, 3.75, 4.09]
+Profits all seasonal Customers: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Reward per Week: 0.0
+Reward per Episode: 0.0
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Reward per Week: 0.0
+Reward per Episode: 0.0
+
+PERFORMANCE
+Reaching 93.26 % of optimal prices
+Reaching 71.22 % of optimal profits

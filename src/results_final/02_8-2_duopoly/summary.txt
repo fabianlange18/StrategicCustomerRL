@@ -1,0 +1,89 @@
+Summary for Run 02_8-2_duopoly
+
+80.0 % seasonal
+20.0 % recurring
+Playing against undercutting competitor
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal    703.00       20.09      3.28        14.00        20.00        29.00
+                           i1_n_seasonal    718.00       20.51      4.03        10.00        21.00        29.00
+                          i0_n_recurring    166.00        4.74      2.13         0.00         5.00         9.00
+                          i1_n_recurring    187.00        5.34      2.92         1.00         4.00        15.00
+                       i0_n_seasonal_buy    331.00        9.46      3.97         3.00         9.00        20.00
+            i0_n_seasonal_competitor_buy    301.00        8.60      5.87         0.00        10.00        19.00
+           i0_seasonal_competitor_reward    980.18       28.01     19.59         0.00        33.60        68.31
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward   1478.01       42.23     11.61        17.21        41.36        73.83
+                  i0_n_recurring_waiting     16.00        0.46      0.73         0.00         0.00         3.00
+                      i0_n_recurring_buy     69.00        1.97      1.81         0.00         1.00         7.00
+           i0_n_recurring_competitor_buy     80.00        2.29      2.13         0.00         2.00         8.00
+          i0_recurring_competitor_reward    259.02        7.40      7.35         0.00         5.66        24.76
+            i0_recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     i0_recurring_reward    290.41        8.30      7.34         0.00         6.16        26.63
+                       i1_n_seasonal_buy    269.00        7.69      2.48         3.00         7.00        12.00
+            i1_n_seasonal_competitor_buy    388.00       11.09      3.68         2.00        11.00        19.00
+           i1_seasonal_competitor_reward   1441.69       41.19     17.32        10.32        41.98        84.46
+             i1_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i1_seasonal_reward   1327.63       37.93     17.39        14.77        33.20        73.92
+                  i1_n_recurring_waiting     25.00        0.71      0.91         0.00         1.00         4.00
+                      i1_n_recurring_buy     71.00        2.03      1.81         0.00         2.00         9.00
+           i1_n_recurring_competitor_buy    107.00        3.06      1.94         0.00         3.00         9.00
+          i1_recurring_competitor_reward    432.12       12.35      9.05         0.00        10.26        40.81
+            i1_recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     i1_recurring_reward    359.46       10.27     10.39         0.00         7.60        47.24
+                    i0_agent_offer_price    169.75        4.85      1.19         2.59         5.25         6.31
+                    i1_agent_offer_price    169.75        4.85      1.19         2.59         5.25         6.31
+                         i0_total_reward   1768.42       50.53     14.22        17.21        49.25        88.60
+                         i1_total_reward   1687.09       48.20     21.17        18.35        43.01        85.83
+               i0_competitor_offer_price    134.68        3.85      1.19         1.59         4.25         5.31
+               i1_competitor_offer_price    134.75        3.85      1.19         1.59         4.25         5.31
+              i0_total_competitor_reward   1239.20       35.41     24.94         0.00        41.98        84.39
+              i1_total_competitor_reward   1873.81       53.54     22.27        18.01        54.06       103.19
+                       agent_offer_price    339.49        4.85      1.19         2.59         5.25         6.31
+                  competitor_offer_price    269.43        3.85      1.19         1.59         4.25         5.31
+                            total_reward   3455.51       49.36     18.07        17.21        49.15        88.60
+                 total_competitor_reward   3113.01       44.47     25.32         0.00        46.31       103.19
+                         seasonal_reward   2805.64       40.08     14.94        14.77        39.52        73.92
+              seasonal_competitor_reward   2421.87       34.60     19.63         0.00        35.11        84.46
+                          n_seasonal_buy    600.00        8.57      3.42         3.00         8.00        20.00
+               n_seasonal_competitor_buy    689.00        9.84      5.06         0.00        11.00        19.00
+                              n_seasonal   1421.00       20.30      3.68        10.00        20.00        29.00
+                seasonal_reference_price    380.00        5.43      1.40         3.00         6.00         7.00
+                        recurring_reward    649.87        9.28      9.05         0.00         6.94        47.24
+             recurring_competitor_reward    691.14        9.87      8.61         0.00         8.43        40.81
+                         n_recurring_buy    140.00        2.00      1.81         0.00         2.00         9.00
+              n_recurring_competitor_buy    187.00        2.67      2.08         0.00         2.00         9.00
+                             n_recurring    353.00        5.04      2.57         0.00         5.00        15.00
+               recurring_reference_price    380.00        5.43      1.40         3.00         6.00         7.00
+                     n_recurring_waiting     82.00        1.17      1.58         0.00         1.00         7.00
+
+Average Agent Sales Price seasonal: 4.676
+
+Average Agent Sales Price recurring: 4.642
+Average Offer Price Agent: 4.85
+Average Offer Price Competitor: 3.849
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [3.79, 5.27, 5.93, 2.93, 5.65, 4.44, 6.31]
+Profits per seasonal Customer: [2.94, 4.52, 5.2, 2.01, 4.69, 3.73, 5.42]
+Profits all seasonal Customers: [117.64, 180.93, 207.93, 80.42, 187.65, 149.08, 216.97]
+Reward per Week: 1140.63
+Reward per Episode: 11406.29
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [117.71, 189.95, 225.88, 81.38, 189.95, 153.9, 225.88]
+Reward per Week: 1184.66
+Reward per Episode: 11846.64
+
+PERFORMANCE
+Reaching 93.16 % of optimal prices
+Reaching 96.83 % of optimal profits

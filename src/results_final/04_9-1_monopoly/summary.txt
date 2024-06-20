@@ -1,0 +1,62 @@
+Summary for Run 04_9-1_monopoly
+
+90.0 % seasonal
+10.0 % anticipating
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal   1569.00       44.83      2.30        38.00        45.00        50.00
+                           i1_n_seasonal   1569.00       44.83      2.30        38.00        45.00        50.00
+                       i0_n_anticipating   1023.00       29.23     11.07         5.00        32.00        44.00
+                       i1_n_anticipating   1023.00       29.23     11.07         5.00        32.00        44.00
+                       i0_n_seasonal_buy   1248.00       35.66      4.88        22.00        35.00        47.00
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward   6670.02      190.57     60.34        69.84       208.71       292.81
+               i0_n_anticipating_waiting    902.00       25.77     12.11         0.00        28.00        44.00
+                   i0_n_anticipating_buy     79.00        2.26      9.21         0.00         0.00        43.00
+         i0_anticipating_reference_price     94.74        2.71      0.06         2.67         2.67         2.82
+                  i0_anticipating_reward    210.80        6.02     24.57         0.00         0.00       114.74
+                    i0_agent_offer_price    184.71        5.28      1.38         2.67         5.85         7.17
+                    i1_agent_offer_price    184.71        5.28      1.38         2.67         5.85         7.17
+                         i0_total_reward   6880.82      196.59     55.47        69.84       210.80       292.81
+                         i1_total_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                       agent_offer_price    184.71        5.28      1.38         2.67         5.85         7.17
+                            total_reward   6880.82      196.59     55.47        69.84       210.80       292.81
+                         seasonal_reward   6670.02      190.57     60.34        69.84       208.71       292.81
+                          n_seasonal_buy   1248.00       35.66      4.88        22.00        35.00        47.00
+                              n_seasonal   1569.00       44.83      2.30        38.00        45.00        50.00
+                seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     anticipating_reward    210.80        6.02     24.57         0.00         0.00       114.74
+                      n_anticipating_buy     79.00        2.26      9.21         0.00         0.00        43.00
+                          n_anticipating   1023.00       29.23     11.07         5.00        32.00        44.00
+            anticipating_reference_price     94.74        2.71      0.06         2.67         2.67         2.82
+                  n_anticipating_waiting    902.00       25.77     12.11         0.00        28.00        44.00
+
+Average Agent Sales Price seasonal: 5.345
+
+Average Agent Sales Price anticipating: 2.668
+Average Offer Price Agent: 5.2769999504089355
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [3.28, 5.18, 5.81, 2.74, 5.22, 4.42, 5.91]
+Profits per seasonal Customer: [2.77, 4.47, 5.12, 2.03, 4.5, 3.72, 5.18]
+Profits all seasonal Customers: [124.66, 201.33, 230.28, 91.54, 202.28, 167.27, 233.26]
+Reward per Week: 1250.64
+Reward per Episode: 12506.39
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [132.43, 213.7, 254.12, 91.55, 213.7, 173.14, 254.12]
+Reward per Week: 1332.75
+Reward per Episode: 13327.47
+
+PERFORMANCE
+Reaching 87.95 % of optimal prices
+Reaching 94.58 % of optimal profits

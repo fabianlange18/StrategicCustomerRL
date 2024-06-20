@@ -1,0 +1,62 @@
+Summary for Run 03_1-9_monopoly
+
+10.0 % seasonal
+90.0 % price-aware
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal    160.00        4.57      2.72         0.00         4.00        12.00
+                           i1_n_seasonal    160.00        4.57      2.72         0.00         4.00        12.00
+                        i0_n_price-aware   5809.00      165.97     98.86        39.00       155.00       326.00
+                        i1_n_price-aware   5809.00      165.97     98.86        39.00       155.00       326.00
+                       i0_n_seasonal_buy    116.00        3.31      2.79         0.00         3.00        11.00
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward    521.35       14.90     13.62         0.00        12.77        60.38
+                i0_n_price-aware_waiting   4309.00      123.11    102.25         0.00       110.00       300.00
+                    i0_n_price-aware_buy   1267.00       36.20     87.54         0.00         0.00       325.00
+          i0_price-aware_reference_price    119.06        3.40      0.94         2.13         3.27         5.20
+                   i0_price-aware_reward   4773.55      136.39    352.97         0.00         0.00      1269.18
+                    i0_agent_offer_price    164.27        4.69      1.37         2.13         4.44         7.11
+                    i1_agent_offer_price    164.27        4.69      1.37         2.13         4.44         7.11
+                         i0_total_reward   5294.90      151.28    351.13         0.00        17.40      1282.49
+                         i1_total_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                       agent_offer_price    164.27        4.69      1.37         2.13         4.44         7.11
+                            total_reward   5294.90      151.28    351.13         0.00        17.40      1282.49
+                         seasonal_reward    521.35       14.90     13.62         0.00        12.77        60.38
+                          n_seasonal_buy    116.00        3.31      2.79         0.00         3.00        11.00
+                              n_seasonal    160.00        4.57      2.72         0.00         4.00        12.00
+                seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      price-aware_reward   4773.55      136.39    352.97         0.00         0.00      1269.18
+                       n_price-aware_buy   1267.00       36.20     87.54         0.00         0.00       325.00
+                           n_price-aware   5809.00      165.97     98.86        39.00       155.00       326.00
+             price-aware_reference_price    119.06        3.40      0.94         2.13         3.27         5.20
+                   n_price-aware_waiting   4309.00      123.11    102.25         0.00       110.00       300.00
+
+Average Agent Sales Price seasonal: 4.494
+
+Average Agent Sales Price price-aware: 3.768
+Average Offer Price Agent: 4.692999839782715
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [4.52, 4.75, 4.68, 4.44, 4.72, 4.72, 4.73]
+Profits per seasonal Customer: [2.47, 4.19, 4.24, 0.07, 4.17, 3.82, 4.29]
+Profits all seasonal Customers: [12.34, 20.96, 21.22, 0.35, 20.84, 19.12, 21.45]
+Reward per Week: 116.28
+Reward per Episode: 1162.82
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [14.71, 23.74, 28.24, 10.17, 23.74, 19.24, 28.24]
+Reward per Week: 148.08
+Reward per Episode: 1480.83
+
+PERFORMANCE
+Reaching 95.33 % of optimal prices
+Reaching 73.41 % of optimal profits

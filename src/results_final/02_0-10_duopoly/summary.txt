@@ -1,0 +1,48 @@
+Summary for Run 02_0-10_duopoly
+
+100 % recurring
+Playing against undercutting competitor
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                          i0_n_recurring   1265.00       36.14     10.58        23.00        32.00        58.00
+                          i1_n_recurring   1193.00       34.09      9.56        21.00        30.00        54.00
+                  i0_n_recurring_waiting    425.00       12.14     10.71         0.00         9.00        32.00
+                      i0_n_recurring_buy    588.00       16.80     15.55         0.00        13.00        44.00
+           i0_n_recurring_competitor_buy    236.00        6.74      8.26         0.00         1.00        25.00
+          i0_recurring_competitor_reward   1063.78       30.39     35.26         0.00         7.85        91.63
+            i0_recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     i0_recurring_reward   3484.42       99.55     94.01         0.00        78.04       263.02
+                  i1_n_recurring_waiting    735.00       21.00     19.67         2.00        12.00        55.00
+                      i1_n_recurring_buy    293.00        8.37      6.12         0.00        10.00        18.00
+           i1_n_recurring_competitor_buy    565.00       16.14     11.74         0.00        20.00        38.00
+          i1_recurring_competitor_reward   2827.35       80.78     60.30         0.00        88.34       203.34
+            i1_recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     i1_recurring_reward   1768.86       50.54     37.82         0.00        50.72       111.35
+                    i0_agent_offer_price    245.32        7.01      1.70         4.53         6.35        10.00
+                    i1_agent_offer_price    245.32        7.01      1.70         4.53         6.35        10.00
+                         i0_total_reward   3484.42       99.55     94.01         0.00        78.04       263.02
+                         i1_total_reward   1768.86       50.54     37.82         0.00        50.72       111.35
+               i0_competitor_offer_price    210.03        6.00      1.70         3.53         5.35         9.00
+               i1_competitor_offer_price    210.32        6.01      1.70         3.53         5.35         9.00
+              i0_total_competitor_reward   1063.78       30.39     35.26         0.00         7.85        91.63
+              i1_total_competitor_reward   2827.35       80.78     60.30         0.00        88.34       203.34
+                       agent_offer_price    490.64        7.01      1.70         4.53         6.35        10.00
+                  competitor_offer_price    420.35        6.01      1.70         3.53         5.35         9.00
+                            total_reward   5253.28       75.05     75.73         0.00        65.32       263.02
+                 total_competitor_reward   3891.13       55.59     55.45         0.00        56.57       203.34
+                        recurring_reward   5253.28       75.05     75.73         0.00        65.32       263.02
+             recurring_competitor_reward   3891.13       55.59     55.45         0.00        56.57       203.34
+                         n_recurring_buy    881.00       12.59     12.55         0.00        11.00        44.00
+              n_recurring_competitor_buy    801.00       11.44     11.18         0.00        11.50        38.00
+                             n_recurring   2458.00       35.11     10.13        21.00        32.00        58.00
+               recurring_reference_price    380.00        5.43      1.40         3.00         6.00         7.00
+                     n_recurring_waiting   2320.00       33.14     30.16         2.00        21.00        85.00
+
+Average Agent Sales Price recurring: 5.963
+Average Offer Price Agent: 7.009
+Average Offer Price Competitor: 6.005

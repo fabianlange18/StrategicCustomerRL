@@ -1,0 +1,30 @@
+Summary for Run 02_0-10_monopoly
+
+100 % recurring
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                          i0_n_recurring   3414.00       97.54     21.03        66.00        94.00       133.00
+                          i1_n_recurring   3414.00       97.54     21.03        66.00        94.00       133.00
+                  i0_n_recurring_waiting   1732.00       49.49     22.20        17.00        46.00        87.00
+                      i0_n_recurring_buy   1585.00       45.29     39.86         0.00        64.00       110.00
+            i0_recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     i0_recurring_reward  11100.34      317.15    282.14         0.00       436.91       795.99
+                    i0_agent_offer_price    239.88        6.85      0.23         6.63         6.77         7.24
+                    i1_agent_offer_price    239.88        6.85      0.23         6.63         6.77         7.24
+                         i0_total_reward  11100.34      317.15    282.14         0.00       436.91       795.99
+                         i1_total_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                       agent_offer_price    239.88        6.85      0.23         6.63         6.77         7.24
+                            total_reward  11100.34      317.15    282.14         0.00       436.91       795.99
+                        recurring_reward  11100.34      317.15    282.14         0.00       436.91       795.99
+                         n_recurring_buy   1585.00       45.29     39.86         0.00        64.00       110.00
+                             n_recurring   3414.00       97.54     21.03        66.00        94.00       133.00
+               recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     n_recurring_waiting   1732.00       49.49     22.20        17.00        46.00        87.00
+
+Average Agent Sales Price recurring: 7.003
+Average Offer Price Agent: 6.854000091552734

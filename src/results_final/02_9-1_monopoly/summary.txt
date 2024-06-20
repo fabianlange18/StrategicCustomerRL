@@ -1,0 +1,62 @@
+Summary for Run 02_9-1_monopoly
+
+90.0 % seasonal
+10.0 % recurring
+
+
+
+Statistics for one deterministic simulation episode
+
+                                Property       Sum        Mean       Std         Min        Median          Max
+
+                           i0_n_seasonal   1576.00       45.03      1.61        42.00        45.00        49.00
+                           i1_n_seasonal   1576.00       45.03      1.61        42.00        45.00        49.00
+                          i0_n_recurring    209.00        5.97      1.89         2.00         6.00         9.00
+                          i1_n_recurring    209.00        5.97      1.89         2.00         6.00         9.00
+                       i0_n_seasonal_buy   1248.00       35.66      3.58        28.00        35.00        43.00
+             i0_seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                      i0_seasonal_reward   6788.35      193.95     64.51        80.02       204.45       304.34
+                  i0_n_recurring_waiting     39.00        1.11      0.98         0.00         1.00         4.00
+                      i0_n_recurring_buy    166.00        4.74      1.86         2.00         4.00         9.00
+            i0_recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     i0_recurring_reward    902.20       25.78     12.97         5.33        24.07        54.12
+                    i0_agent_offer_price    188.30        5.38      1.56         2.66         6.01         7.13
+                    i1_agent_offer_price    188.30        5.38      1.56         2.66         6.01         7.13
+                         i0_total_reward   7690.56      219.73     71.08        87.87       226.48       318.49
+                         i1_total_reward      0.00        0.00      0.00         0.00         0.00         0.00
+                       agent_offer_price    188.30        5.38      1.56         2.66         6.01         7.13
+                            total_reward   7690.56      219.73     71.08        87.87       226.48       318.49
+                         seasonal_reward   6788.35      193.95     64.51        80.02       204.45       304.34
+                          n_seasonal_buy   1248.00       35.66      3.58        28.00        35.00        43.00
+                              n_seasonal   1576.00       45.03      1.61        42.00        45.00        49.00
+                seasonal_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                        recurring_reward    902.20       25.78     12.97         5.33        24.07        54.12
+                         n_recurring_buy    166.00        4.74      1.86         2.00         4.00         9.00
+                             n_recurring    209.00        5.97      1.89         2.00         6.00         9.00
+               recurring_reference_price    190.00        5.43      1.40         3.00         6.00         7.00
+                     n_recurring_waiting     39.00        1.11      0.98         0.00         1.00         4.00
+
+Average Agent Sales Price seasonal: 5.439
+
+Average Agent Sales Price recurring: 5.435
+Average Offer Price Agent: 5.380000114440918
+
+Statistics for Seasonal Customers:
+
+ACTUAL (empty waiting pool)
+Policy Statistics for Prices: [3.39, 5.13, 5.83, 2.61, 5.0, 4.3, 5.83]
+Profits per seasonal Customer: [2.82, 4.44, 5.13, 2.02, 4.36, 3.66, 5.13]
+Profits all seasonal Customers: [127.08, 199.99, 230.82, 90.8, 196.34, 164.77, 230.9]
+Reward per Week: 1240.71
+Reward per Episode: 12407.07
+
+OPTIMAL
+Policy Statistics for Prices: [3.85, 5.97, 7.02, 2.76, 5.97, 4.92, 7.02]
+Profits per seasonal Customer: [2.94, 4.75, 5.65, 2.03, 4.75, 3.85, 5.65]
+Profits all seasonal Customers: [132.43, 213.7, 254.12, 91.55, 213.7, 173.14, 254.12]
+Reward per Week: 1332.75
+Reward per Episode: 13327.47
+
+PERFORMANCE
+Reaching 86.56 % of optimal prices
+Reaching 93.92 % of optimal profits
